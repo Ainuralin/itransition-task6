@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: itransition-task6
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && python init_db.py
+    startCommand: gunicorn app:app --workers 1 --threads 2 --bind 0.0.0.0:$PORT --timeout 300
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
+      - key: DATABASE_URL
+        sync: false

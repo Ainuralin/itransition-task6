@@ -1,0 +1,94 @@
+{
+  "measured_at": "2026-10-28T19:04:03+00:00",
+  "environment": "PostgreSQL connected through DATABASE_URL",
+  "client_platform": "Windows-10-10.0.26300-SP0",
+  "seed": 42,
+  "requested_count": 10000,
+  "batch_size": 100,
+  "results": [
+    {
+      "locale": "zh-CN",
+      "median_users_per_second": 5547.56,
+      "runs": [
+        {
+          "seed": 42,
+          "scope": "SQL batch generation, JSON serialization and checksum; excludes network transfer",
+          "users": 10000,
+          "locale": "zh-CN",
+          "seconds": 1.849656,
+          "checksum": "8e99da44154cbb67b47a18792c8053bd",
+          "batch_size": 100,
+          "json_bytes": 7536098,
+          "postgres_version": "PostgreSQL 17.11 (Debian 17.11-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit",
+          "users_per_second": 5406.41
+        },
+        {
+          "seed": 42,
+          "scope": "SQL batch generation, JSON serialization and checksum; excludes network transfer",
+          "users": 10000,
+          "locale": "zh-CN",
+          "seconds": 1.802595,
+          "checksum": "8e99da44154cbb67b47a18792c8053bd",
+          "batch_size": 100,
+          "json_bytes": 7536098,
+          "postgres_version": "PostgreSQL 17.11 (Debian 17.11-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit",
+          "users_per_second": 5547.56
+        },
+        {
+          "seed": 42,
+          "scope": "SQL batch generation, JSON serialization and checksum; excludes network transfer",
+          "users": 10000,
+          "locale": "zh-CN",
+          "seconds": 1.786741,
+          "checksum": "8e99da44154cbb67b47a18792c8053bd",
+          "batch_size": 100,
+          "json_bytes": 7536098,
+          "postgres_version": "PostgreSQL 17.11 (Debian 17.11-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit",
+          "users_per_second": 5596.78
+        }
+      ]
+    },
+    {
+      "locale": "ko-KR",
+      "median_users_per_second": 5597.21,
+      "runs": [
+        {
+          "seed": 42,
+          "scope": "SQL batch generation, JSON serialization and checksum; excludes network transfer",
+          "users": 10000,
+          "locale": "ko-KR",
+          "seconds": 1.786605,
+          "checksum": "838d8aa1c1c3781bbdb5689e35220768",
+          "batch_size": 100,
+          "json_bytes": 7706559,
+          "postgres_version": "PostgreSQL 17.11 (Debian 17.11-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit",
+          "users_per_second": 5597.21
+        },
+        {
+          "seed": 42,
+          "scope": "SQL batch generation, JSON serialization and checksum; excludes network transfer",
+          "users": 10000,
+          "locale": "ko-KR",
+          "seconds": 1.793978,
+          "checksum": "838d8aa1c1c3781bbdb5689e35220768",
+          "batch_size": 100,
+          "json_bytes": 7706559,
+          "postgres_version": "PostgreSQL 17.11 (Debian 17.11-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit",
+          "users_per_second": 5574.2
+        },
+        {
+          "seed": 42,
+          "scope": "SQL batch generation, JSON serialization and checksum; excludes network transfer",
+          "users": 10000,
+          "locale": "ko-KR",
+          "seconds": 1.774837,
+          "checksum": "838d8aa1c1c3781bbdb5689e35220768",
+          "batch_size": 100,
+          "json_bytes": 7706559,
+          "postgres_version": "PostgreSQL 17.11 (Debian 17.11-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit",
+          "users_per_second": 5634.32
+        }
+      ]
+    }
+  ]
+}

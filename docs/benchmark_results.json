@@ -1,0 +1,94 @@
+{
+  "measured_at": "2026-10-28T09:02:30+00:00",
+  "environment": "PostgreSQL 18.6 compiled to WebAssembly (PGlite 0.5.12), local SQL test environment",
+  "client_platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "seed": 42,
+  "requested_count": 10000,
+  "batch_size": 100,
+  "results": [
+    {
+      "locale": "zh-CN",
+      "median_users_per_second": 1719.39,
+      "runs": [
+        {
+          "seed": 42,
+          "scope": "SQL batch generation, JSON serialization and checksum; excludes network transfer",
+          "users": 10000,
+          "locale": "zh-CN",
+          "seconds": 5.229,
+          "checksum": "8e99da44154cbb67b47a18792c8053bd",
+          "batch_size": 100,
+          "json_bytes": 7536098,
+          "postgres_version": "PostgreSQL 18.6 (PGlite 0.5.12) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+          "users_per_second": 1912.41
+        },
+        {
+          "seed": 42,
+          "scope": "SQL batch generation, JSON serialization and checksum; excludes network transfer",
+          "users": 10000,
+          "locale": "zh-CN",
+          "seconds": 5.816,
+          "checksum": "8e99da44154cbb67b47a18792c8053bd",
+          "batch_size": 100,
+          "json_bytes": 7536098,
+          "postgres_version": "PostgreSQL 18.6 (PGlite 0.5.12) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+          "users_per_second": 1719.39
+        },
+        {
+          "seed": 42,
+          "scope": "SQL batch generation, JSON serialization and checksum; excludes network transfer",
+          "users": 10000,
+          "locale": "zh-CN",
+          "seconds": 5.855,
+          "checksum": "8e99da44154cbb67b47a18792c8053bd",
+          "batch_size": 100,
+          "json_bytes": 7536098,
+          "postgres_version": "PostgreSQL 18.6 (PGlite 0.5.12) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+          "users_per_second": 1707.94
+        }
+      ]
+    },
+    {
+      "locale": "ko-KR",
+      "median_users_per_second": 1819.17,
+      "runs": [
+        {
+          "seed": 42,
+          "scope": "SQL batch generation, JSON serialization and checksum; excludes network transfer",
+          "users": 10000,
+          "locale": "ko-KR",
+          "seconds": 5.826,
+          "checksum": "838d8aa1c1c3781bbdb5689e35220768",
+          "batch_size": 100,
+          "json_bytes": 7706559,
+          "postgres_version": "PostgreSQL 18.6 (PGlite 0.5.12) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+          "users_per_second": 1716.44
+        },
+        {
+          "seed": 42,
+          "scope": "SQL batch generation, JSON serialization and checksum; excludes network transfer",
+          "users": 10000,
+          "locale": "ko-KR",
+          "seconds": 5.306,
+          "checksum": "838d8aa1c1c3781bbdb5689e35220768",
+          "batch_size": 100,
+          "json_bytes": 7706559,
+          "postgres_version": "PostgreSQL 18.6 (PGlite 0.5.12) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+          "users_per_second": 1884.66
+        },
+        {
+          "seed": 42,
+          "scope": "SQL batch generation, JSON serialization and checksum; excludes network transfer",
+          "users": 10000,
+          "locale": "ko-KR",
+          "seconds": 5.497,
+          "checksum": "838d8aa1c1c3781bbdb5689e35220768",
+          "batch_size": 100,
+          "json_bytes": 7706559,
+          "postgres_version": "PostgreSQL 18.6 (PGlite 0.5.12) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+          "users_per_second": 1819.17
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Contact Lab · SQL Faker{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="/" aria-label="Contact Lab home"><span class="brand-mark">CL</span><span>Contact Lab<small>SQL FAKER LIBRARY</small></span></a><nav><a href="/" {% if request.path=='/' %}aria-current="page"{% endif %}>Generator</a><a href="/docs" {% if request.path=='/docs' %}aria-current="page"{% endif %}>Documentation</a><span class="edition">DATA ENGINEERING / 06</span></nav></header>
+<main>{% block content %}{% endblock %}</main>
+<footer><span>Ainur Ali · Task 6</span><span>PostgreSQL stored procedures · Dataset 1.0</span></footer>
+{% block scripts %}{% endblock %}
+</body></html>
